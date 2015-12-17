@@ -3,7 +3,7 @@ library(vegan)
 library(reshape)
 library(ggplot2)
 library(Rmisc)
-mydata <- read.xlsx("~/Box Sync/LabPhotos/JanthinoProjectKJW/JanthinoProjectKJW_Colony_Counts.xlsx", 1)
+mydata <- read.xlsx("C:/Users/Keaton/Github/JanthinoDiversity/data/JanthinoProjectKJW_Colony_Counts.xlsx", 1)
 sapply(mydata, class)
 
 mydata$White <- as.numeric(as.character(mydata$White))
